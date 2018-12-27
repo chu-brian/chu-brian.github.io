@@ -2,12 +2,14 @@ body {
 	background-color: lavender;
 	font-family: 'Muli', serif;
 	line-height: 1.5;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .flex-container {
 	display: flex;
 	justify-content: space-between;
-
+	flex-wrap: wrap-reverse;
 }
 
 h1, h2 {
