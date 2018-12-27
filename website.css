@@ -1,0 +1,25 @@
+body {
+	background-color: lavender;
+	font-family: 'Muli', serif;
+	line-height: 1.5;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+h1, h2 {
+	color: #191970;
+}
+
+.width {
+	max-width: 600px;
+	margin: auto;
+}
+
+.center {
+	display: block;
+	margin: auto;
+}
