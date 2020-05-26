@@ -1,11 +1,27 @@
 /* set the base font size, everything else based on it */
 html {
   font-size: 10px;
+  position: relative;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
+  /* footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.footer-penn {
+  text-align: center;
+  padding: 10px;
+  background-color: #cfd0d2;
+  color: white;
 }
 
 h1 {
@@ -31,6 +47,8 @@ h1 {
 
 .navbar-penn {
   font-size: 1.5rem;
+  background-color: #00144d;
+  color: white;
 }
 
 .logo-penn {
