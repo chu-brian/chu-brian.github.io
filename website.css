@@ -2,6 +2,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+/* default color, font for the body */
 body {
 	background-color: lavender;
 	font-family: 'Muli', serif;
@@ -10,6 +11,7 @@ body {
 	padding-right: 25px;
 }
 
+/* This class defines the container storing the flexboxes */
 .flex-container {
 	display: flex;
 	justify-content: space-between;

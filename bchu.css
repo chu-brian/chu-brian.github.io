@@ -1,0 +1,74 @@
+/* set the base font size, everything else based on it */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  /*
+  background: #00144d;
+  color: white;
+*/
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* media queries for small devices */
+@media (max-midth: 992px) {
+  .nav-div-penn {}
+
+  .nav-penn {}
+}
+
+.width {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navbar-penn {
+  font-size: 1.5rem;
+}
+
+.logo-penn {
+  font-size: 1.5rem;
+}
+
+.header-penn {}
+
+.nav-div-penn {
+  border-width: thin;
+  border-style: solid;
+  border-color: #cfd0d2;
+  background: #f2f2f3;
+  position: sticky;
+  top: 30px;
+  margin-top: 65px;
+}
+
+.btn-penn {
+  font-size: 1.5rem;
+}
+
+.accordion .fa {
+  margin-right: 0.5rem;
+}
+
+/* TABLE PROPERTIES */
+
+.table-penn td {}
+
+.tr-penn {
+  background: #95001a;
+  color: white;
+  text-align: center;
+
+}
+
+.thead-penn {
+  background: #01256e;
+  color: white;
+}
