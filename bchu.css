@@ -25,19 +25,8 @@ body {
 }
 
 h1 {
-  /*
-  background: #00144d;
-  color: white;
-*/
   padding: 1.5rem;
   text-align: center;
-}
-
-/* media queries for small devices */
-@media (max-midth: 992px) {
-  .nav-div-penn {}
-
-  .nav-penn {}
 }
 
 .width {
@@ -45,6 +34,7 @@ h1 {
   margin: auto;
 }
 
+/* NAVBAR */
 .navbar-penn {
   font-size: 1.5rem;
   background-color: #00144d;
@@ -57,6 +47,7 @@ h1 {
 
 .header-penn {}
 
+/* SIDEBAR NAV */
 .nav-div-penn {
   border-width: thin;
   border-style: solid;
@@ -65,8 +56,14 @@ h1 {
   position: sticky;
   top: 30px;
   margin-top: 65px;
+  z-index: 9999;
 }
 
+.dropdown-menu {
+  font-size: 1.5rem;
+}
+
+/* ACCORDION */
 .btn-penn {
   font-size: 1.5rem;
 }
@@ -83,10 +80,33 @@ h1 {
   background: #95001a;
   color: white;
   text-align: center;
+}
 
+.tr-penn strong {
+  font-weight: ;
+}
+
+tr th {
+  font-weight: 700;
+}
+
+tr th i {
+  font-weight: 400;
 }
 
 .thead-penn {
   background: #01256e;
   color: white;
+}
+
+.table-subtext {
+  font-size: 1.25rem;
+}
+/* media queries for small devices */
+@media (max-width: 992px) {
+  .nav-div-penn {
+    margin-top: 15px;
+  }
+
+  .nav-penn {}
 }
