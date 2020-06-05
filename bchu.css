@@ -63,6 +63,11 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* CARDS */
+.card-header {
+  background: #f2f2f3;
+}
+
 /* ACCORDION */
 .btn-penn {
   font-size: 1.5rem;
@@ -74,7 +79,13 @@ h1 {
 
 /* TABLE PROPERTIES */
 
-.table-penn td {}
+.table-penn {
+  border: 1px solid black;
+}
+
+.table-responsive {
+  width: 100%;
+}
 
 .tr-penn {
   background: #95001a;
@@ -101,6 +112,21 @@ tr th i {
 
 .table-subtext {
   font-size: 1.25rem;
+}
+
+.minor {
+  background: green;
+  color: white;
+}
+
+.critical {
+  background: orange;
+  color: white;
+}
+
+.unavailable {
+  background: red;
+  color: white;
 }
 /* media queries for small devices */
 @media (max-width: 992px) {
