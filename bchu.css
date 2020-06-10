@@ -35,10 +35,10 @@ h1 {
 }
 
 /* NAVBAR */
+
 .navbar-penn {
   font-size: 1.5rem;
   background-color: #00144d;
-  color: white;
 }
 
 .logo-penn {
@@ -65,12 +65,14 @@ h1 {
 
 /* CARDS */
 .card-header {
-  background: #f2f2f3;
+/*  background: #f2f2f3;*/
+  font-weight: 600;
 }
 
 /* ACCORDION */
 .btn-penn {
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .accordion .fa {
@@ -79,7 +81,7 @@ h1 {
 
 /* TABLE PROPERTIES */
 
-.table-penn {
+.table-penn, .table-penn td, .table-penn th, .table-penn tr {
   border: 1px solid black;
 }
 
@@ -106,7 +108,7 @@ tr th i {
 }
 
 .thead-penn {
-  background: #01256e;
+  background: #00144d;
   color: white;
 }
 
