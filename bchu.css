@@ -43,6 +43,7 @@ h1 {
 
 .logo-penn {
   font-size: 1.5rem;
+  margin-top: 2px;
 }
 
 .header-penn {}
@@ -67,6 +68,15 @@ h1 {
 .card-header {
 /*  background: #f2f2f3;*/
   font-weight: 600;
+}
+
+.card-subtitle {
+  margin-top: auto;
+  margin-bottom: 5px;;
+  padding: 5px;
+  background-color: #95001a;
+  color: white;
+  font-weight: 700;
 }
 
 /* ACCORDION */
@@ -130,11 +140,43 @@ tr th i {
   background: red;
   color: white;
 }
+
+.inclusion {
+  background: #C6EFCE;
+  color: #006100;
+}
+
+.exclusion {
+  background: #FFC7CE;
+  color: #9C0006;
+}
+
+.table-subtext-table .btn {
+  font-size: 1.25rem;
+}
+
+/* https://www.codeply.com/go/Ep9T1ItZrb/bootstrap-4-collapse-card-plus-minus-icons */
+.table-subtext-table .btn::before {
+  font-family: "FontAwesome";  
+  content: "\f068";
+  float: left;
+  margin-right: 5px;
+}
+
+.table-subtext-table .btn.collapsed::before {
+  content: "\f067";
+}
+
 /* media queries for small devices */
 @media (max-width: 992px) {
   .nav-div-penn {
     margin-top: 15px;
   }
-
+  
   .nav-penn {}
+  
+  /* todo: how wide for small devices? */
+  .container {
+    max-width: 600px;
+  }
 }
