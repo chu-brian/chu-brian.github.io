@@ -11,6 +11,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: 
 }
 
 .site-content {
@@ -35,6 +36,15 @@ h1 {
 }
 
 /* NAVBAR */
+.navbar a {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+}
 
 .navbar-penn {
   font-size: 1.5rem;
@@ -62,6 +72,11 @@ h1 {
 
 .dropdown-menu {
   font-size: 1.5rem;
+}
+
+.dropdown-header {
+  font-size: 1.5rem;
+  color: #838634;
 }
 
 /* CARDS */
@@ -155,6 +170,11 @@ tr th i {
   font-size: 1.25rem;
 }
 
+.table-candida td {
+  text-align: center;
+  font-weight: 700;
+}
+
 /* https://www.codeply.com/go/Ep9T1ItZrb/bootstrap-4-collapse-card-plus-minus-icons */
 .table-subtext-table .btn::before {
   font-family: "FontAwesome";  
@@ -164,6 +184,17 @@ tr th i {
 }
 
 .table-subtext-table .btn.collapsed::before {
+  content: "\f067";
+}
+
+.card-header .btn::before {
+  font-family: "FontAwesome";  
+  content: "\f068";
+  float: left;
+  margin-right: 5px;
+}
+
+.card-header .btn.collapsed::before {
   content: "\f067";
 }
 
