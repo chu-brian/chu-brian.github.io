@@ -9,6 +9,7 @@ body {
 	line-height: 1.5;
 	padding-left: 25px;
 	padding-right: 25px;
+  font-weight: 300;
 }
 
 /* This class defines the container storing the flexboxes */
@@ -20,6 +21,7 @@ body {
 
 h1, h2, h3 {
 	color: #191970;
+  font-weight: 600;
 }
 
 .width {
